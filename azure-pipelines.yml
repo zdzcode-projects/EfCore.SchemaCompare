@@ -11,6 +11,7 @@ variables:
   solution: '**/*.sln'
   buildPlatform: 'Any CPU'
   buildConfiguration: 'Release'
+  csprojRelativePath: 'EfSchemaCompare\EfSchemaCompare.csproj'
 
 resources:
   repositories:
