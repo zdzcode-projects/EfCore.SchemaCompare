@@ -20,4 +20,4 @@ resources:
       name: ZDZCode Architecture and Infrastructure/_git/ZC.AzureDevOps.Script
 
 jobs:
-  - template: AzurePipelines/DotNetPackage/azure-pipelines.yml@templates
+  - template: AzurePipelines/Github/azure-pipelines.yml@templates
