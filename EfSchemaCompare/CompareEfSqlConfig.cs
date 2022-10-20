@@ -38,10 +38,12 @@ namespace EfSchemaCompare
 
         /// <summary>
         /// Specifies the culture, case, and sort rules to be used
+        /// Note: Doesn't work with EF Core 5
         /// </summary>
         public StringComparison? CaseComparison { get; set; }
         /// <summary>
         /// Represents a string comparison operation that uses specific case and culture-based or ordinal comparison rules. 
+        /// Note: Doesn't work with EF Core 5
         /// </summary>
         public StringComparer CaseComparer { get; set; }
 
