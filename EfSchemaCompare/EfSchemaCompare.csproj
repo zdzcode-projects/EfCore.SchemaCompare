@@ -30,7 +30,7 @@
 		<PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.11"	Condition="'$(TargetFramework)' == 'net6.0'" />
 		<PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="6.0.11" Condition="'$(TargetFramework )' == 'net6.0'"	/>
 		<PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="6.0.11"	Condition="'$(TargetFramework)' == 'net6.0'" 	/>
-		<PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.011"	Condition="'$(TargetFramework)' == 'net6.0'" 	/>
+		<PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.11"	Condition="'$(TargetFramework)' == 'net6.0'" 	/>
 		<PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="6.0.0"	Condition="'$(TargetFramework)' == 'net6.0'" 		/>
 		
 		
