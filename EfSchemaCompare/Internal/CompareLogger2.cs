@@ -52,7 +52,7 @@ namespace EfSchemaCompare.Internal
             AddToLogsIfNotIgnored(new CompareLog(_type, CompareState.NotInDatabase, name ?? _defaultName, attribute, expected, null));
         }
 
-        public void ExtraInDatabase(string found, CompareAttributes attribute, string name = null)
+        public void ExtraInDatabase(string found, CompareAttributes attribute, string name = null, bool? isNullable = null)
         {
             AddToLogsIfNotIgnored(new CompareLog(_type, CompareState.ExtraInDatabase, name ?? _defaultName, attribute, null, found));
         }
